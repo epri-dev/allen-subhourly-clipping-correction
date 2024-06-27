@@ -111,7 +111,7 @@ dc_ac_ratio = 1.4
 pv_model = "PVSyst"
 
 # Hourly modeling using plant specifications and realistic meteorological data
-pac_csv = os.path.join(project_dir, "PVModelPVSyst1.4.csv")
+pac_csv = os.path.join(project_dir, "PVModel_PVSyst_1.4.csv")
 # Hourly modeling using dc:ac ratio = 1.0 and realistic meteorological data
 pac_dcac1_csv = os.path.join(project_dir, "PVModel_PVSyst_1.csv")
 # Hourly modeling using plant specifications and reference sky radiation
@@ -201,7 +201,7 @@ def read_pvsyst_one_csv(csv_fn):
 def read_pvsyst_csv(pac_csv, pac_dcac1_csv, pac_refsky_csv):
     # Expected columns of data (not all are needed for each of the 3 csv files)
     col_dict = {'GlobHor': 'ghi', 'DiffHor': 'dhi', 'HSol': 'solar_elevation',
-                'EOutArray': 'pdc', 'EOutInv': 'pac'}
+                'EArray': 'pdc', 'EOutInv': 'pac'}
 
     # Pac and DNI for plant specifications
     # Required columns - 'date', 'zenith', 'ghi', 'dhi', 'pac'
