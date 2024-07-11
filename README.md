@@ -12,6 +12,17 @@ The AtC Bias correction method in [2], also described as "Classification Method 
 
 This AtC Bias correction method was demonstrated and compared with a model based on minute-scale data in [6].
 
+# Citing
+
+**Recommended citation for this repository:**
+
+J. O. Allen, R. Dhakal, W. B. Hobbs, and W. Li, “Allen Method for PV Subhourly Clipping Correction,” 2024. [Online]. Available: https://github.com/epri-dev/allen-subhourly-clippingcorrection
+
+**Recommended citations for the correction method:**
+
+Please cite [2] and [3] listed in the [references](#references) below. 
+
+
 # Apply Matrix
 Estimate AtC Bias by applying the correction matrix to hourly PV modeling output using the method described in [2] and [3]. The steps in the process are:
 
@@ -68,12 +79,9 @@ hourly PV output using minute DC power measurements
 ", Journal of Renewable and Sustainable Energy 14, 063503, 2022.
 https://doi.org/10.1063/5.0130265
 
-[2] J. O. Allen, W. B. Hobbs, and M. Bolen, "Classification Method to Predict the Effect of Short-Term Inverter Saturation on PV Performance Modeling", PV Performance Modeling Workshop Salt Lake City, 2022.
+[2] J. O. Allen, W. B. Hobbs, and M. Bolen, "Classification Method to Predict the Effect of Short-Term Inverter Saturation on PV Performance Modeling", PV Performance Modeling Workshop Salt Lake City, 2022. https://pvpmc.sandia.gov/app/uploads/sites/243/2022/10/pvpmc_atcerror_20220823f.pdf
 
-[3] J. O. Allen, “Improved PV Plant Energy Production
-(Phases 1 and 2): The Effect of Short-term Inverter Saturation on PV Performance Modeling”. EPRI Technical Report
-3002018708. EPRI, Palo Alto, CA. 2022.
-https://www.epri.com/research/products/000000003002018708. 
+[3] J. O. Allen, “Improved PV Plant Energy Production (Phases 1 and 2): The Effect of Short-term Inverter Saturation on PV Performance Modeling”. EPRI Technical Report 3002018708. EPRI, Palo Alto, CA. 2022. https://www.epri.com/research/products/000000003002018708. 
 
 [4] Anderson, K., Hansen, C., Holmgren, W., Jensen, A., Mikofski, M., and Driesse, A. “pvlib python: 2023 project update.” Journal of Open Source Software, 8(92), 5994, (2023). [DOI: 10.21105/joss.05994](http://dx.doi.org/10.21105/joss.05994).
 
