@@ -16,7 +16,7 @@ This AtC Bias correction method was demonstrated and compared with a model based
 
 **Recommended citation for this repository:**
 
-J. O. Allen, R. Dhakal, W. B. Hobbs, and W. Li, “Allen Method for PV Subhourly Clipping Correction,” 2024. [Online]. Available: https://github.com/epri-dev/allen-subhourly-clippingcorrection
+J. O. Allen, R. Dhakal, W. B. Hobbs, and W. Li, “Allen Method for PV Subhourly Clipping Correction,” 2024. [Online]. Available: https://github.com/epri-dev/allen-subhourly-clipping-correction
 
 **Recommended citations for the correction method:**
 
