@@ -85,7 +85,7 @@ https://doi.org/10.1063/5.0130265
 
 [4] Anderson, K., Hansen, C., Holmgren, W., Jensen, A., Mikofski, M., and Driesse, A. “pvlib python: 2023 project update.” Journal of Open Source Software, 8(92), 5994, (2023). [DOI: 10.21105/joss.05994](http://dx.doi.org/10.21105/joss.05994).
 
-[5] System Advisor Model Version 2023.12.17, Revision 1 (SAM 2023.12.17r1). National Renewable Energy Laboratory. Golden, CO. https://https://sam.nrel.gov .
+[5] System Advisor Model Version 2023.12.17, Revision 1 (SAM 2023.12.17r1). National Renewable Energy Laboratory. Golden, CO. https://sam.nrel.gov.
 
 [6] Prilliman, M. J., J. M. F. Keith, and W. B. Hobbs. 2024. Side-by-Side
 Comparison of Subhourly Clipping Models: Preprint. Golden, CO: National Renewable
